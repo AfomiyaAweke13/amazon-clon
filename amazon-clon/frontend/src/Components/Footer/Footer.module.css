@@ -1,0 +1,90 @@
+:root {
+  --amazon-blue: #131921;
+  --amazon-dark: #0f1720;
+  --amazon-orange: #ff9900;
+  --muted: #ddd;
+}
+
+.footer {
+  background: var(--amazon-dark);
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* Back to Top */
+.backToTop {
+  width: 100%;
+  background: #37475a;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.backToTop:hover {
+  background: #47586c;
+}
+
+/* Section Titles */
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Links */
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links li a {
+  text-decoration: none;
+  color: var(--muted);
+  display: block;
+  padding: 3px 0;
+  transition: color 0.2s ease;
+}
+
+.links li a:hover {
+  color: #fff;
+}
+
+/* Payment Icons */
+.paymentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 0;
+  flex-wrap: wrap;
+}
+
+.paymentContainer img {
+  height: 24px;
+  width: auto;
+  object-fit: contain;
+  transition: filter 0.2s;
+}
+
+.paymentContainer img:hover {
+  filter: brightness(1.1);
+}
+
+
+/* Bottom Bar */
+.bottomBar {
+  background: var(--amazon-blue);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 20px;
+}
+
+.logo {
+  font-weight: 700;
+  color: var(--amazon-orange);
+  text-decoration: none;
+  font-size: 18px;
+}
