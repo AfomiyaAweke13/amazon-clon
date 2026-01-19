@@ -108,7 +108,7 @@ const Footer = () => {
           <a href="#" className={styles.logo}>
             Amazon Clone
           </a>
-          <p className="mt-2 mb-0">© 2025 Amazon Clone — Built for Practice</p>
+          <p className="mt-2 mb-0">© 2025 </p>
         </div>
       </div>
     </footer>
@@ -116,3 +116,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
